@@ -1,0 +1,52 @@
+.navbar {
+    background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+.navbar-toggler-icon {
+    filter: invert(1); 
+  }
+  
+.nav-link {
+    color: white !important;
+    transition: color 0.3s ease;
+  }
+  
+.nav-link:hover {
+    color: #f5f5f5 !important; 
+  }
+  
+.btn-custom {
+    background-color: white;
+    color: #6A11CB;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+.btn-custom:hover {
+    background-color: #f5f5f5;
+    color: #2575FC;
+  }
+  
+.btn-logout {
+    background-color: white;
+    color: #2575FC;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+  }
+  
+.btn-logout:hover {
+    background-color: #f5f5f5;
+    color: #3b4bde;
+  }
+  
